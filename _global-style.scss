@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@500;600;700&family=Manrope:wght@600;800&family=Poppins:ital,wght@0,500;0,600;1,500&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@0;1&family=Bellefair&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@500;600;700&family=Manrope:wght@600;800&family=Poppins:ital,wght@0,500;0,600;1,500&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: Barlow Condensed;
+    overflow-x: hidden;
+}
+
+$spacing: 0.1rem;
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: $spacing;
+    text-transform: capitalize;
+    line-height: 1.25;
+    font-family: "Roboto", sans-serif;;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 0.875rem;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    body {
+        font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1;
+    }
+}
+
+$DarkGray: hsl(0, 0%, 63%);
+$Black: hsl(0, 0%, 0%) ; 
+$White: hsl(0, 0%, 100%);
+$VeryDarkGray: hsl(0, 0%, 27%);
+$mainColor: #979797;
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: $Black;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+img{
+    object-fit: cover;
+}
